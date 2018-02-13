@@ -2,9 +2,18 @@
 package org.usfirst.frc.team5957.robot;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.VictorSP;
 
 // This is our robot. All the code for the robot goes in here
 public class Robot extends IterativeRobot {
+    VictorSP fL = new VictorSP(0);
+    VictorSP fR = new VictorSP(1);
+    VictorSP rL = new VictorSP(2);
+    VictorSP rR = new VictorSP(3);
+    VictorSP winch = new VictorSP(4);
+    
+    
+	 
 	// All code to declare parts of the robot goes here, before any of the methods
 	// below.
 	// An example is
